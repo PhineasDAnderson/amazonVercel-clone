@@ -29,7 +29,7 @@ function ProductCarousel({ title, products }) {
         <div className="carousel-scroll-track" ref={trackRef}>
           {products.map((imgSrc, index) => (
             <div key={index} className="carousel-product-node">
-              <img src={imgSrc} alt={`Carousel picture ${index + 1}`} />
+              <img src={imgSrc} alt={`Carousel item ${index + 1}`} />
             </div>
           ))}
         </div>
