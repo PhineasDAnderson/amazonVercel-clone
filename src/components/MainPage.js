@@ -57,7 +57,7 @@ function MainPage({ addToCart, searchTerm }) {
       id: 102,
       title: "DualShock 4 Wireless Controller for PlayStation - Jet Black",
       price: 59.99,
-      cateegory: "Electronics",
+      category: "Electronics",
       rating: 4.5,
       reviews: 126,
       img: dualShockImg,
